@@ -1,0 +1,108 @@
+locus_tag	ftype	length_bp	gene	EC_number	COG	product
+SRR2838702_00001	CDS	1434	gltX			glutamate--tRNA ligase
+SRR2838702_00002	CDS	2649				2-oxoglutarate dehydrogenase E1 component
+SRR2838702_00003	CDS	1071				hypothetical protein
+SRR2838702_00004	CDS	1419	lpdA			dihydrolipoyl dehydrogenase
+SRR2838702_00005	CDS	1017	ilvC			ketol-acid reductoisomerase
+SRR2838702_00006	CDS	492	ilvN			acetolactate synthase small subunit
+SRR2838702_00007	CDS	1743				acetolactate synthase 3 large subunit
+SRR2838702_00008	CDS	645				MarC family NAAT transporter
+SRR2838702_00009	CDS	192	rplF			50S ribosomal protein L6
+SRR2838702_00010	CDS	354	rplR			50S ribosomal protein L18
+SRR2838702_00011	CDS	516	rpsE			30S ribosomal protein S5
+SRR2838702_00012	CDS	453	rplO			50S ribosomal protein L15
+SRR2838702_00013	CDS	1194	secY			preprotein translocase subunit SecY
+SRR2838702_00014	CDS	114	rpmJ			50S ribosomal protein L36
+SRR2838702_00015	CDS	351	rpsM			30S ribosomal protein S13
+SRR2838702_00016	CDS	393	rpsK			30S ribosomal protein S11
+SRR2838702_00017	CDS	612	rpsD			30S ribosomal protein S4
+SRR2838702_00018	CDS	990	rpoA			DNA-directed RNA polymerase subunit alpha
+SRR2838702_00019	CDS	351	rplQ			50S ribosomal protein L17
+SRR2838702_00020	CDS	258	rplW			50S ribosomal protein L23
+SRR2838702_00021	CDS	801	rplB			50S ribosomal protein L2
+SRR2838702_00022	CDS	279	rpsS			30S ribosomal protein S19
+SRR2838702_00023	CDS	342	rplV			50S ribosomal protein L22
+SRR2838702_00024	CDS	681	rpsC			30S ribosomal protein S3
+SRR2838702_00025	CDS	414	rplP			50S ribosomal protein L16
+SRR2838702_00026	CDS	192	rpmC			50S ribosomal protein L29
+SRR2838702_00027	CDS	252	rpsQ			30S ribosomal protein S17
+SRR2838702_00028	CDS	372	rplN			50S ribosomal protein L14
+SRR2838702_00029	CDS	303	rplX			50S ribosomal protein L24
+SRR2838702_00030	CDS	504	rplE			50S ribosomal protein L5
+SRR2838702_00031	CDS	306	rpsN			30S ribosomal protein S14
+SRR2838702_00032	CDS	384	rpsH			30S ribosomal protein S8
+SRR2838702_00033	rRNA	1533				16S ribosomal RNA
+SRR2838702_00034	tRNA	75				tRNA-Ile(gat)
+SRR2838702_00035	rRNA	2868				23S ribosomal RNA
+SRR2838702_00036	rRNA	109				5S ribosomal RNA
+SRR2838702_00037	CDS	1698	rpoC			DNA-directed RNA polymerase subunit beta'
+SRR2838702_00038	CDS	369	rpsL			30S ribosomal protein S12
+SRR2838702_00039	CDS	474	rpsG			30S ribosomal protein S7
+SRR2838702_00040	CDS	2136	fusA			elongation factor G
+SRR2838702_00041	CDS	1926	dnaK			molecular chaperone DnaK
+SRR2838702_00042	CDS	1044	dnaJ			molecular chaperone DnaJ
+SRR2838702_00043	CDS	876	dapA			4-hydroxy-tetrahydrodipicolinate synthase
+SRR2838702_00044	CDS	267	rpmA			50S ribosomal protein L27
+SRR2838702_00045	CDS	984	cgtA			Obg family GTPase CgtA
+SRR2838702_00046	CDS	240	rpsT			30S ribosomal protein S20
+SRR2838702_00047	CDS	2847	ileS			isoleucine--tRNA ligase
+SRR2838702_00048	CDS	1083				argininosuccinate synthase
+SRR2838702_00049	CDS	291				co-chaperone GroES
+SRR2838702_00050	CDS	1632	groL			chaperonin GroEL
+SRR2838702_00051	CDS	444	ybeY			rRNA maturation RNase YbeY
+SRR2838702_00052	CDS	2592	leuS			leucine--tRNA ligase
+SRR2838702_00053	CDS	1182	trpB			tryptophan synthase subunit beta
+SRR2838702_00054	CDS	807	trpA			tryptophan synthase subunit alpha
+SRR2838702_00055	CDS	189				YfhL family 4Fe-4S dicluster ferredoxin
+SRR2838702_00056	CDS	564	ahpC			alkyl hydroperoxide reductase subunit C
+SRR2838702_00057	CDS	2547	gyrA			DNA gyrase subunit A
+SRR2838702_00058	CDS	636				phosphoribosylanthranilate isomerase
+SRR2838702_00059	CDS	825	truA			tRNA pseudouridine(38-40) synthase TruA
+SRR2838702_00060	CDS	795	asd			aspartate-semialdehyde dehydrogenase
+SRR2838702_00061	CDS	432	rpoB			DNA-directed RNA polymerase subunit beta
+SRR2838702_00062	CDS	843	rpoH			RNA polymerase sigma factor RpoH
+SRR2838702_00063	CDS	615	rsmD			16S rRNA (guanine(966)-N(2))-methyltransferase RsmD
+SRR2838702_00064	CDS	999	lysS			lysine--tRNA ligase
+SRR2838702_00065	CDS	354	rplS			50S ribosomal protein L19
+SRR2838702_00066	CDS	1275				homoserine dehydrogenase
+SRR2838702_00067	CDS	174	aroC			chorismate synthase
+SRR2838702_00068	CDS	1401	leuC			3-isopropylmalate dehydratase large subunit
+SRR2838702_00069	tRNA	76				tRNA-Arg(ccg)
+SRR2838702_00070	CDS	711				AI-2E family transporter
+SRR2838702_00071	tRNA	73				tRNA-Thr(cgt)
+SRR2838702_00072	CDS	492	pheA			prephenate dehydratase
+SRR2838702_00073	CDS	1320				bifunctional prephenate dehydrogenase/3-phosphoshikimate 1-carboxyvinyltransferase
+SRR2838702_00074	tRNA	74				tRNA-Pro(tgg)
+SRR2838702_00075	CDS	429				hypothetical protein
+SRR2838702_00076	CDS	1176	sufB			Fe-S cluster assembly protein SufB
+SRR2838702_00077	CDS	669	pheS			phenylalanine--tRNA ligase subunit alpha
+SRR2838702_00078	CDS	1155	rpsA			30S ribosomal protein S1
+SRR2838702_00079	CDS	93				hypothetical protein
+SRR2838702_00080	CDS	426	bacA			vitamin B12 ABC transporter ATP-binding protein BacA
+SRR2838702_00081	CDS	1371	atpD			F0F1 ATP synthase subunit beta
+SRR2838702_00082	CDS	123				hypothetical protein
+SRR2838702_00083	tRNA	84				tRNA-Ser(gct)
+SRR2838702_00084	CDS	765				aspartate kinase
+SRR2838702_00085	CDS	1629	nuoC			NADH-quinone oxidoreductase subunit C/D
+SRR2838702_00086	CDS	240	cls			cardiolipin synthase
+SRR2838702_00087	CDS	1239	mgtE			magnesium transporter
+SRR2838702_00088	CDS	378				hypothetical protein
+SRR2838702_00089	CDS	633	yidC			membrane protein insertase YidC
+SRR2838702_00090	CDS	1299	pnp			polyribonucleotide nucleotidyltransferase
+SRR2838702_00091	CDS	741	serS			serine--tRNA ligase
+SRR2838702_00092	CDS	1344	rne			ribonuclease E
+SRR2838702_00093	CDS	228				hypothetical protein
+SRR2838702_00094	CDS	1200	hslU			ATP-dependent protease ATPase subunit HslU
+SRR2838702_00095	CDS	120				hypothetical protein
+SRR2838702_00096	CDS	90				hypothetical protein
+SRR2838702_00097	CDS	336				hypothetical protein
+SRR2838702_00098	CDS	99				hypothetical protein
+SRR2838702_00099	CDS	588	tuf			elongation factor Tu
+SRR2838702_00100	CDS	315	rpsJ			30S ribosomal protein S10
+SRR2838702_00101	tRNA	74				tRNA-Asp(gtc)
+SRR2838702_00102	CDS	597				ribose-phosphate pyrophosphokinase
+SRR2838702_00103	CDS	189				hypothetical protein
+SRR2838702_00104	CDS	138				hypothetical protein
+SRR2838702_00105	CDS	210				ornithine carbamoyltransferase
+SRR2838702_00106	CDS	363	nfuA			Fe-S biogenesis protein NfuA
+SRR2838702_00107	CDS	255	gnd			decarboxylating 6-phosphogluconate dehydrogenase
