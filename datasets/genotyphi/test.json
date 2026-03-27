@@ -1,0 +1,47 @@
+{
+    "SRR2838702": {
+        "susceptibility": {},
+        "phylogenetics": {
+            "phylo_group": {
+                "Unknown": {
+                    "percent_coverage": -1,
+                    "median_depth": -1
+                }
+            },
+            "sub_complex": {
+                "Unknown": {
+                    "percent_coverage": -1,
+                    "median_depth": -1
+                }
+            },
+            "species": {
+                "Unknown": {
+                    "percent_coverage": -1,
+                    "median_depth": -1
+                }
+            },
+            "lineage": {
+                "Unknown": {
+                    "percent_coverage": -1,
+                    "median_depth": -1
+                }
+            }
+        },
+        "kmer": 21,
+        "probe_sets": [
+            "/usr/local/lib/python3.8/site-packages/mykrobe/data/typhi/typhi.lineage.20221109.probes.fa.gz",
+            "/usr/local/lib/python3.8/site-packages/mykrobe/data/typhi/typhi.amr.plas.20220503.probes.fa.gz",
+            "/usr/local/lib/python3.8/site-packages/mykrobe/data/typhi/typhi.probe.invA.20210322.fa.gz",
+            "/usr/local/lib/python3.8/site-packages/mykrobe/data/typhi/typhi.mlst.20210322.fa.gz"
+        ],
+        "files": [
+            "EMPTY.fastq.gz"
+        ],
+        "version": {
+            "mykrobe-predictor": "v0.13.0",
+            "mykrobe-atlas": "v0.13.0",
+            "panel": "20221208/20221207"
+        },
+        "genotype_model": "kmer_count"
+    }
+}

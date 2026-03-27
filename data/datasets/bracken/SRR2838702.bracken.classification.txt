@@ -1,2 +1,0 @@
-sample	classification
-SRR2838702	unclassified

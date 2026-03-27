@@ -1,13 +1,13 @@
 # Big databases
-data/datasets/bakta
-data/datasets/checkm2
-data/datasets/eggnog
-data/datasets/gtdb
-data/datasets/gtdbtk
-data/datasets/kraken2
-data/datasets/midas
-data/datasets/minmer
-data/datasets/nohuman
-data/datasets/sketcher
-data/datasets/srahumanscrubber
-data/datasets/sylph
+datasets/bakta
+datasets/checkm2
+datasets/eggnog
+datasets/gtdb
+datasets/gtdbtk
+datasets/kraken2
+datasets/midas
+datasets/minmer
+datasets/nohuman
+datasets/sketcher
+datasets/srahumanscrubber
+datasets/sylph

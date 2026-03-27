@@ -1,2 +1,0 @@
-identity	shared-hashes	median-multiplicity	p-value	query-ID	query-comment
-0.961556	439/1000	1	0	GCF_000827855.1_ASM82785v1_genomic.fna.gz	NZ_CP007563.1 Candidatus Portiera aleyrodidarum MED (Bemisia tabaci) strain BT-Q, complete genome

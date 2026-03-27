@@ -1,0 +1,2 @@
+ID,status,superkingdom,phylum,class,order,family,genus,species,strain
+SRR2838702,found,d__Bacteria,p__Proteobacteria,c__Gammaproteobacteria,o__Evansiales,f__Evansiaceae,g__Portiera,s__Portiera aleyrodidarum,
