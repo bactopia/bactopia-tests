@@ -1,0 +1,75 @@
+# bactopia-tests
+
+> Test datasets for the Bactopia bacterial genome analysis pipeline, providing reference data, sequencing reads, assemblies, and tool-specific databases for CI/CD testing of Bactopia Nextflow workflows.
+
+This repository contains test fixtures for [Bactopia](https://github.com/bactopia/bactopia), a Nextflow pipeline for the complete analysis of bacterial genomes. It is modeled after the [nf-core test-datasets](https://github.com/nf-core/test-datasets) pattern.
+
+The repo is organized into three top-level directories:
+
+- `species/` - Sequencing reads, assemblies, and annotations for 20 bacterial species
+- `datasets/` - Tool-specific reference databases and pre-computed results
+- `empty/` - Empty placeholder files used to test error handling in the pipeline
+
+## Key Resources
+
+- [Bactopia](https://github.com/bactopia/bactopia): Main Nextflow pipeline repository
+- [Bactopia Documentation](https://bactopia.github.io/): User guides and tool documentation
+- [nf-core test-datasets](https://github.com/nf-core/test-datasets): The pattern this repo follows
+
+## Species
+
+- [bacillus_anthracis](https://github.com/bactopia/bactopia-tests/tree/main/species/bacillus_anthracis)
+- [escherichia_coli](https://github.com/bactopia/bactopia-tests/tree/main/species/escherichia_coli)
+- [escherichia_coli_mcr1](https://github.com/bactopia/bactopia-tests/tree/main/species/escherichia_coli_mcr1): MCR-1 positive strain
+- [glaesserella_parasuis](https://github.com/bactopia/bactopia-tests/tree/main/species/glaesserella_parasuis)
+- [haemophilus_influenzae](https://github.com/bactopia/bactopia-tests/tree/main/species/haemophilus_influenzae)
+- [klebsiella_pneumoniae](https://github.com/bactopia/bactopia-tests/tree/main/species/klebsiella_pneumoniae)
+- [legionella_pneumophila](https://github.com/bactopia/bactopia-tests/tree/main/species/legionella_pneumophila)
+- [listeria_monocytogenes](https://github.com/bactopia/bactopia-tests/tree/main/species/listeria_monocytogenes)
+- [mixed](https://github.com/bactopia/bactopia-tests/tree/main/species/mixed): Multi-species test data
+- [neisseria_gonorrhoeae](https://github.com/bactopia/bactopia-tests/tree/main/species/neisseria_gonorrhoeae)
+- [neisseria_meningitidis](https://github.com/bactopia/bactopia-tests/tree/main/species/neisseria_meningitidis)
+- [portiera](https://github.com/bactopia/bactopia-tests/tree/main/species/portiera): Small ~350kb genome, includes Nanopore reads
+- [pseudomonas_aeruginosa](https://github.com/bactopia/bactopia-tests/tree/main/species/pseudomonas_aeruginosa)
+- [salmonella_enterica](https://github.com/bactopia/bactopia-tests/tree/main/species/salmonella_enterica)
+- [shigella_boydii](https://github.com/bactopia/bactopia-tests/tree/main/species/shigella_boydii)
+- [shigella_dysenteriae](https://github.com/bactopia/bactopia-tests/tree/main/species/shigella_dysenteriae)
+- [staphylococcus_aureus](https://github.com/bactopia/bactopia-tests/tree/main/species/staphylococcus_aureus)
+- [streptococcus_pneumoniae](https://github.com/bactopia/bactopia-tests/tree/main/species/streptococcus_pneumoniae)
+- [streptococcus_pyogenes](https://github.com/bactopia/bactopia-tests/tree/main/species/streptococcus_pyogenes)
+- [streptococcus_suis](https://github.com/bactopia/bactopia-tests/tree/main/species/streptococcus_suis)
+
+## Datasets
+
+- [amrfinderplus](https://github.com/bactopia/bactopia-tests/tree/main/datasets/amrfinderplus): AMRFinder+ antimicrobial resistance results
+- [ariba](https://github.com/bactopia/bactopia-tests/tree/main/datasets/ariba): ARIBA CARD/VFDB databases
+- [blast](https://github.com/bactopia/bactopia-tests/tree/main/datasets/blast): BLAST databases for genes, primers, and proteins
+- [bracken](https://github.com/bactopia/bactopia-tests/tree/main/datasets/bracken): Bracken taxonomic classification results
+- [defensefinder](https://github.com/bactopia/bactopia-tests/tree/main/datasets/defensefinder): DefenseFinder results
+- [emmtyper](https://github.com/bactopia/bactopia-tests/tree/main/datasets/emmtyper): emm-type reference sequences
+- [generic](https://github.com/bactopia/bactopia-tests/tree/main/datasets/generic): Reference genomes, GFFs, metadata, and pan-genome data
+- [genotyphi](https://github.com/bactopia/bactopia-tests/tree/main/datasets/genotyphi): GenoTyphi Salmonella Typhi genotyping data
+- [ismapper](https://github.com/bactopia/bactopia-tests/tree/main/datasets/ismapper): ISMapper insertion sequence data
+- [mapping-sequences](https://github.com/bactopia/bactopia-tests/tree/main/datasets/mapping-sequences): Reference sequences for read mapping
+- [mlst](https://github.com/bactopia/bactopia-tests/tree/main/datasets/mlst): Multi-locus sequence typing databases
+- [rgi](https://github.com/bactopia/bactopia-tests/tree/main/datasets/rgi): RGI/CARD resistance gene databases
+- [snippy](https://github.com/bactopia/bactopia-tests/tree/main/datasets/snippy): Snippy variant calling reference data
+- [tbprofiler](https://github.com/bactopia/bactopia-tests/tree/main/datasets/tbprofiler): TBProfiler results for Illumina and Nanopore
+- [variants](https://github.com/bactopia/bactopia-tests/tree/main/datasets/variants): Variant calling test data
+
+## Optional
+
+The following datasets directories are symlinks to external database caches and will not be present in the GitHub repository:
+
+- bakta, checkm2, eggnog, gtdbtk, kraken2, midas, nohuman, sketcher, srahumanscrubber, sylph
+
+Species directories typically contain subdirectories for different data types:
+
+- `reads/illumina/` - Paired-end and single-end Illumina FASTQ files at various coverage levels
+- `reads/nanopore/` - Oxford Nanopore long reads (where available)
+- `assembly/` - Pre-assembled genomes
+- `compressed/` and `uncompressed/` - Format variants of genomic data
+
+The `empty/` directory contains 21 empty files (e.g., EMPTY_R1.fastq.gz, EMPTY_ASSEMBLY) used to verify the pipeline handles missing or empty input gracefully.
+
+Common file formats: FASTQ (.fastq.gz), FASTA (.fna, .faa, .ffn), GFF (.gff), Mash sketches (.msh), TSV, JSON, CSV.

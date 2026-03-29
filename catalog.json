@@ -1,0 +1,309 @@
+{
+  "name": "bactopia-tests",
+  "description": "Test datasets for the Bactopia bacterial genome analysis pipeline",
+  "version": "4.0.0",
+  "license": "MIT",
+  "repository": "https://github.com/bactopia/bactopia-tests",
+  "parent_project": "https://github.com/bactopia/bactopia",
+  "species": [
+    {
+      "name": "bacillus_anthracis",
+      "accessions": ["GCF_000008445"],
+      "data_types": ["assembly"],
+      "has_compressed": true,
+      "has_uncompressed": true
+    },
+    {
+      "name": "escherichia_coli",
+      "accessions": ["GCF_001695515"],
+      "genome_size": 5866200,
+      "data_types": ["assembly"],
+      "has_compressed": true,
+      "has_uncompressed": true
+    },
+    {
+      "name": "escherichia_coli_mcr1",
+      "accessions": ["GCF_001682305"],
+      "genome_size": 4617703,
+      "data_types": ["assembly"],
+      "has_compressed": true,
+      "has_uncompressed": true,
+      "tags": ["mcr-1"]
+    },
+    {
+      "name": "glaesserella_parasuis",
+      "accessions": ["GCF_002777395"],
+      "genome_size": 2479163,
+      "data_types": ["assembly"],
+      "has_compressed": true,
+      "has_uncompressed": true
+    },
+    {
+      "name": "haemophilus_influenzae",
+      "accessions": ["GCA_000027305", "GCF_900478275"],
+      "genome_size": 1890469,
+      "data_types": ["assembly", "annotation"],
+      "has_compressed": true,
+      "has_uncompressed": true,
+      "annotations": ["prokka"]
+    },
+    {
+      "name": "klebsiella_pneumoniae",
+      "accessions": ["GCF_000009885"],
+      "genome_size": 5472672,
+      "data_types": ["assembly"],
+      "has_compressed": true,
+      "has_uncompressed": false
+    },
+    {
+      "name": "legionella_pneumophila",
+      "accessions": ["GCF_000048645"],
+      "genome_size": 3635495,
+      "data_types": ["assembly"],
+      "has_compressed": true,
+      "has_uncompressed": false
+    },
+    {
+      "name": "listeria_monocytogenes",
+      "accessions": ["GCF_002285835"],
+      "genome_size": 3148183,
+      "data_types": ["assembly"],
+      "has_compressed": true,
+      "has_uncompressed": true
+    },
+    {
+      "name": "mixed",
+      "accessions": [
+        "GCF_000292685", "GCF_000298385", "GCF_000300075", "GCF_002849995",
+        "ERR1438863", "ERR6005894", "SRR2838702"
+      ],
+      "data_types": ["illumina_reads", "annotation"],
+      "has_compressed": false,
+      "has_uncompressed": false,
+      "read_types": ["paired_end", "single_end"],
+      "annotations": ["prokka"],
+      "tags": ["multi-species"]
+    },
+    {
+      "name": "neisseria_gonorrhoeae",
+      "accessions": ["GCF_001047255"],
+      "genome_size": 2168698,
+      "data_types": ["assembly"],
+      "has_compressed": true,
+      "has_uncompressed": true
+    },
+    {
+      "name": "neisseria_meningitidis",
+      "accessions": ["GCF_003355215"],
+      "genome_size": 2314390,
+      "data_types": ["assembly"],
+      "has_compressed": true,
+      "has_uncompressed": true
+    },
+    {
+      "name": "portiera",
+      "species_name": "Candidatus Portiera aleyrodidarum",
+      "accessions": ["SRR2838702", "ERR3772599"],
+      "genome_size": 358242,
+      "data_types": ["illumina_reads", "nanopore_reads", "assembly", "annotation", "sketches"],
+      "has_compressed": true,
+      "has_uncompressed": true,
+      "read_types": ["paired_end", "single_end", "nanopore"],
+      "annotations": ["prokka"],
+      "tags": ["small-genome", "endosymbiont"]
+    },
+    {
+      "name": "pseudomonas_aeruginosa",
+      "accessions": ["GCF_000006765"],
+      "genome_size": 6264404,
+      "data_types": ["assembly"],
+      "has_compressed": true,
+      "has_uncompressed": false
+    },
+    {
+      "name": "salmonella_enterica",
+      "accessions": ["GCF_016028495"],
+      "genome_size": 4968720,
+      "data_types": ["assembly"],
+      "has_compressed": true,
+      "has_uncompressed": true
+    },
+    {
+      "name": "shigella_boydii",
+      "accessions": ["GCF_016726285"],
+      "genome_size": 4548972,
+      "data_types": ["assembly"],
+      "has_compressed": true,
+      "has_uncompressed": true
+    },
+    {
+      "name": "shigella_dysenteriae",
+      "accessions": ["GCF_002949675", "ERR6005894", "SRR13039589"],
+      "genome_size": 4578459,
+      "data_types": ["assembly", "illumina_reads", "nanopore_reads"],
+      "has_compressed": false,
+      "has_uncompressed": true,
+      "read_types": ["paired_end", "single_end", "nanopore"]
+    },
+    {
+      "name": "staphylococcus_aureus",
+      "accessions": ["GCF_000017085"],
+      "genome_size": 2903081,
+      "data_types": ["assembly"],
+      "has_compressed": true,
+      "has_uncompressed": true
+    },
+    {
+      "name": "streptococcus_pneumoniae",
+      "accessions": ["GCF_001457635", "ERR1438863"],
+      "genome_size": 2110968,
+      "data_types": ["assembly", "illumina_reads"],
+      "has_compressed": false,
+      "has_uncompressed": false,
+      "read_types": ["paired_end"]
+    },
+    {
+      "name": "streptococcus_pyogenes",
+      "accessions": ["GCF_006364235"],
+      "genome_size": 1914862,
+      "data_types": ["assembly"],
+      "has_compressed": true,
+      "has_uncompressed": true
+    },
+    {
+      "name": "streptococcus_suis",
+      "accessions": ["GCF_002285535"],
+      "genome_size": 2066888,
+      "data_types": ["assembly"],
+      "has_compressed": true,
+      "has_uncompressed": true
+    }
+  ],
+  "datasets": [
+    {
+      "name": "amrfinderplus",
+      "description": "AMRFinderPlus antimicrobial resistance gene database",
+      "type": "database",
+      "files": ["amrfinderplus.tar.gz"],
+      "tags": ["amr"]
+    },
+    {
+      "name": "ariba",
+      "description": "ARIBA pre-processed CARD and VFDB databases",
+      "type": "database",
+      "files": ["card.tar.gz", "vfdb_core.tar.gz"],
+      "tags": ["amr", "virulence"]
+    },
+    {
+      "name": "blast",
+      "description": "BLAST test sequences for genes, primers, and proteins",
+      "type": "test_sequences",
+      "subdirectories": ["genes", "primers", "proteins"],
+      "tags": ["homology"]
+    },
+    {
+      "name": "bracken",
+      "description": "Bracken taxonomic classification test output",
+      "type": "results",
+      "files": ["SRR2838702.bracken.classification.txt"],
+      "tags": ["taxonomy"]
+    },
+    {
+      "name": "defensefinder",
+      "description": "DefenseFinder bacterial defense system detection models",
+      "type": "database",
+      "files": ["defensefinder.tar"],
+      "tags": ["defense-systems"]
+    },
+    {
+      "name": "emmtyper",
+      "description": "EMM type reference sequences for Streptococcus pyogenes",
+      "type": "database",
+      "files": ["emmtyper.tfa"],
+      "tags": ["typing"]
+    },
+    {
+      "name": "generic",
+      "description": "Multi-purpose reference genomes, annotations, metadata, and pan-genome data",
+      "type": "mixed",
+      "subdirectories": ["genome", "genome/gff"],
+      "tags": ["reference", "pangenome"]
+    },
+    {
+      "name": "genotyphi",
+      "description": "GenoTyphi Salmonella Typhi genotyping test output",
+      "type": "results",
+      "files": ["test.json"],
+      "tags": ["typing", "salmonella"]
+    },
+    {
+      "name": "ismapper",
+      "description": "IS element reference sequence for insertion sequence mapping",
+      "type": "database",
+      "files": ["is1016.fasta"],
+      "tags": ["mobile-elements"]
+    },
+    {
+      "name": "mapping-sequences",
+      "description": "Short reference sequences for read mapping and alignment tests",
+      "type": "test_sequences",
+      "files": ["B186_RS01470.fa", "B186_RS01460.fasta", "B186_RS01465.ffn"],
+      "tags": ["mapping"]
+    },
+    {
+      "name": "mlst",
+      "description": "Multi-locus sequence typing allele and profile database",
+      "type": "database",
+      "files": ["mlst.tar.gz"],
+      "tags": ["typing", "mlst"]
+    },
+    {
+      "name": "rgi",
+      "description": "RGI/CARD resistance gene identifier test output",
+      "type": "results",
+      "files": ["sample1.json"],
+      "tags": ["amr"]
+    },
+    {
+      "name": "snippy",
+      "description": "Snippy variant calling test outputs (VCF and aligned FASTA)",
+      "type": "results",
+      "files": ["test1.vcf.gz", "test1.aligned.fa.gz", "test2.vcf.gz", "test2.aligned.fa.gz", "test3.vcf.gz", "test3.aligned.fa.gz", "test4.vcf.gz", "test4.aligned.fa.gz", "test5.vcf.gz", "test5.aligned.fa.gz"],
+      "tags": ["variants", "snps"]
+    },
+    {
+      "name": "tbprofiler",
+      "description": "TBProfiler Mycobacterium tuberculosis profiling results for Illumina and Nanopore",
+      "type": "results",
+      "subdirectories": ["illumina", "nanopore"],
+      "tags": ["tuberculosis", "drug-resistance"]
+    },
+    {
+      "name": "variants",
+      "description": "RefSeq genome Mash sketch for variant analysis",
+      "type": "database",
+      "files": ["refseq-genomes.msh"],
+      "tags": ["variants", "sketches"]
+    }
+  ],
+  "symlinked_datasets": [
+    {"name": "bakta", "target": "/data/cache/databases/bakta", "description": "Bakta genome annotation database"},
+    {"name": "checkm2", "target": "/data/cache/databases/checkm2", "description": "CheckM2 genome quality assessment database"},
+    {"name": "eggnog", "target": "/data/cache/databases/eggnog", "description": "EggNOG functional annotation database"},
+    {"name": "gtdbtk", "target": "/data/cache/databases/gtdbtk", "description": "GTDB-Tk taxonomic classification database"},
+    {"name": "kraken2", "target": "/data/cache/databases/kraken2", "description": "Kraken2 taxonomic classification database"},
+    {"name": "midas", "target": "/data/cache/databases/midas", "description": "MIDAS metagenomic species profiling database"},
+    {"name": "nohuman", "target": "/data/cache/databases/nohuman", "description": "Human read removal database"},
+    {"name": "sketcher", "target": "/data/cache/databases/bactopia/sketcher", "description": "Bactopia sketcher genome sketch database"},
+    {"name": "srahumanscrubber", "target": "/data/cache/databases/srahumanscrubber", "description": "SRA Human Scrubber database"},
+    {"name": "sylph", "target": "/data/cache/databases/sylph", "description": "Sylph taxonomic profiling database"}
+  ],
+  "empty_files": [
+    "EMPTY_ADAPTERS", "EMPTY_ASSEMBLY", "EMPTY_BLASTDB", "EMPTY_DB",
+    "EMPTY_EXTRA", "EMPTY.fastq.gz", "EMPTY.fna.gz", "EMPTY_GBK",
+    "EMPTY_META", "EMPTY_ONT", "EMPTY_PHIX", "EMPTY_PRODIGAL_TF",
+    "EMPTY_PROTEINS", "EMPTY_R1", "EMPTY_R1.fastq.gz", "EMPTY_R2",
+    "EMPTY_R2.fastq.gz", "EMPTY_REPLICONS", "EMPTY_SE", "EMPTYSE.fastq.gz",
+    "EMPTY_TF"
+  ]
+}
