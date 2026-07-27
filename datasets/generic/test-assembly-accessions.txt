@@ -1,0 +1,3 @@
+# Candidatus Portiera aleyrodidarum complete RefSeq genomes (~350 kb each)
+GCF_002849995
+GCF_002849975
